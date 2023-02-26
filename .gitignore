@@ -1,0 +1,12 @@
+# macOS temporary files
+.DS_Store
+.Trashes
+
+# Xcode
+xcuserdata/
+DerivedData/
+
+# Swift Package Manager
+Packages/
+.build/
+.swiftpm/
