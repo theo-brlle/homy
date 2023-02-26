@@ -20,6 +20,7 @@
 		E46E303929AA7ED400BC2C23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E46E304229AA800500BC2C23 /* RootModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RootModule; sourceTree = "<group>"; };
 		E46E304629AAD69900BC2C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46E304829AADC9500BC2C23 /* pull_request_template.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = pull_request_template.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +38,7 @@
 		E46E302629AA7ED300BC2C23 = {
 			isa = PBXGroup;
 			children = (
+				E46E304729AADC9500BC2C23 /* .github */,
 				E46E303129AA7ED300BC2C23 /* Homy */,
 				E46E303029AA7ED300BC2C23 /* Products */,
 				E46E304329AA818F00BC2C23 /* Frameworks */,
@@ -92,6 +94,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E46E304729AADC9500BC2C23 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				E46E304829AADC9500BC2C23 /* pull_request_template.md */,
+			);
+			name = .github;
+			path = ../homy/.github;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
