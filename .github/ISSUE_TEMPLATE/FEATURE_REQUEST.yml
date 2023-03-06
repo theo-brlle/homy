@@ -8,7 +8,7 @@ body:
     attributes:
       label: "🎯 Summary"
       description: "A description of your feature request."
-      placeholder: "e.g. Add the authentication feature to the application."
+      placeholder: "A description of your feature request."
     validations:
       required: true
   - type: textarea
@@ -16,9 +16,22 @@ body:
       label: "📝 Todos"
       description: "The list of things to develop for this feature."
       placeholder: |
-        - [ ] Add a new sign in view
-      value: |
-        - [ ] insert_todo
+        - [ ] Todo
     validations:
       required: false
-          
+  - type: textarea
+    attributes:
+      label: "🔬 Test information"
+      description: "Some information in order to test the new feature more easily."
+      placeholder: |
+        - Test information
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "🔗 Links"
+      description: "Links to documentation or related content that can help during the development."
+      placeholder: |
+        > - [Apple Developer documentation](https://developer.apple.com/documentation/)
+    validations:
+      required: false
