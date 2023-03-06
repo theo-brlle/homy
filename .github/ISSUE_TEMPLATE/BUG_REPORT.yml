@@ -1,0 +1,41 @@
+name: "🐛 Bug report"
+description: "Report a bug."
+labels: ["bug"]
+assignees:
+  - theo-brlle
+body:
+  - type: textarea
+    attributes:
+      label: "🎯 Summary"
+      description: "An explanation of the bug you are reporting."
+      placeholder: "An explanation of the bug you are reporting."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "📝 Todos"
+      description: "The list of things to develop to fix this bug."
+      placeholder: "- [ ] Todo"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "🔬 Steps to reproduce"
+      description: "The steps to reproduce the issue."
+      placeholder: "- First step"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "🔗 Links"
+      description: "Links to documentation or related content that can help during the development."
+      placeholder: "> - [Apple Developer documentation](https://developer.apple.com/documentation/)"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "🌅 Attachments"
+      description: "Screenshots or any attachment to help understand or reproduce the bug."
+      placeholder: "Drag and drop or paste any file."
+    validations:
+      required: false
