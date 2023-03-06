@@ -1,0 +1,13 @@
+name: ✨ Feature request
+description: Request for a new business feature.
+title: A brief description of your feature request
+labels: ["feature"]
+assignees:
+  - theo-brlle
+body:
+  - type: textarea
+    attributes:
+      label: 🎯 Summary
+      placeholder: A more detailed description of your feature request.
+    validations:
+      required: true
