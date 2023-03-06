@@ -36,6 +36,6 @@ body:
     attributes:
       label: "🌅 Attachments"
       description: "Screenshots or any attachment related to the feature."
-      placeholder: "Drag and drop anything."
+      placeholder: "Drag and drop or paste any file."
     validations:
       required: false
