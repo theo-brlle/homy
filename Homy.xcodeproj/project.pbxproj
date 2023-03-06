@@ -24,6 +24,7 @@
 		E4B7691829B6870800F760A8 /* FEATURE_REQUEST.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = FEATURE_REQUEST.yml; sourceTree = "<group>"; };
 		E4B7691929B69D4300F760A8 /* BUG_REPORT.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = BUG_REPORT.yml; sourceTree = "<group>"; };
 		E4B7691A29B6A11D00F760A8 /* config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = config.yml; sourceTree = "<group>"; };
+		E4B7691B29B6A6BB00F760A8 /* TECHNICAL_IMPROVEMENT.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = TECHNICAL_IMPROVEMENT.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				E4B7691829B6870800F760A8 /* FEATURE_REQUEST.yml */,
 				E4B7691929B69D4300F760A8 /* BUG_REPORT.yml */,
 				E4B7691A29B6A11D00F760A8 /* config.yml */,
+				E4B7691B29B6A6BB00F760A8 /* TECHNICAL_IMPROVEMENT.yml */,
 			);
 			path = ISSUE_TEMPLATE;
 			sourceTree = "<group>";
