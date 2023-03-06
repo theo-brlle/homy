@@ -1,13 +1,24 @@
-name: ✨ Feature request
-description: Request for a new business feature.
-title: A brief description of your feature request
+name: "✨ Feature request"
+description: "Request for a new business feature."
 labels: ["feature"]
 assignees:
   - theo-brlle
 body:
   - type: textarea
     attributes:
-      label: 🎯 Summary
-      placeholder: A more detailed description of your feature request.
+      label: "🎯 Summary"
+      description: "A description of your feature request."
+      placeholder: "e.g. Add the authentication feature to the application."
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: "📝 Todos"
+      description: "The list of things to develop for this feature."
+      placeholder: |
+        - [ ] Add a new sign in view
+      value: |
+        - [ ] insert_todo
+    validations:
+      required: false
+          
