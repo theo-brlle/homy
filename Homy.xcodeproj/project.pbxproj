@@ -11,7 +11,18 @@
 		E46E303729AA7ED400BC2C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46E303629AA7ED400BC2C23 /* Assets.xcassets */; };
 		E46E303A29AA7ED400BC2C23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46E303929AA7ED400BC2C23 /* Preview Assets.xcassets */; };
 		E46E304529AA818F00BC2C23 /* RootModule in Frameworks */ = {isa = PBXBuildFile; productRef = E46E304429AA818F00BC2C23 /* RootModule */; };
+		E4FCFD6429BFE5FA0039B297 /* HomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FCFD6329BFE5FA0039B297 /* HomyTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4FCFD6529BFE5FA0039B297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E46E302729AA7ED300BC2C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E46E302E29AA7ED300BC2C23;
+			remoteInfo = Homy;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E46E302F29AA7ED300BC2C23 /* Homy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +36,8 @@
 		E4B7691929B69D4300F760A8 /* BUG_REPORT.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = BUG_REPORT.yml; sourceTree = "<group>"; };
 		E4B7691A29B6A11D00F760A8 /* config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = config.yml; sourceTree = "<group>"; };
 		E4B7691B29B6A6BB00F760A8 /* TECHNICAL_IMPROVEMENT.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = TECHNICAL_IMPROVEMENT.yml; sourceTree = "<group>"; };
+		E4FCFD6129BFE5FA0039B297 /* HomyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FCFD6329BFE5FA0039B297 /* HomyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +49,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4FCFD5E29BFE5FA0039B297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -44,6 +64,7 @@
 			children = (
 				E46E304729AADC9500BC2C23 /* .github */,
 				E46E303129AA7ED300BC2C23 /* Homy */,
+				E4FCFD6229BFE5FA0039B297 /* HomyTests */,
 				E46E303029AA7ED300BC2C23 /* Products */,
 				E46E304329AA818F00BC2C23 /* Frameworks */,
 			);
@@ -53,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				E46E302F29AA7ED300BC2C23 /* Homy.app */,
+				E4FCFD6129BFE5FA0039B297 /* HomyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +143,14 @@
 			path = ISSUE_TEMPLATE;
 			sourceTree = "<group>";
 		};
+		E4FCFD6229BFE5FA0039B297 /* HomyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4FCFD6329BFE5FA0039B297 /* HomyTests.swift */,
+			);
+			path = HomyTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +174,24 @@
 			productReference = E46E302F29AA7ED300BC2C23 /* Homy.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E4FCFD6029BFE5FA0039B297 /* HomyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FCFD6929BFE5FA0039B297 /* Build configuration list for PBXNativeTarget "HomyTests" */;
+			buildPhases = (
+				E4FCFD5D29BFE5FA0039B297 /* Sources */,
+				E4FCFD5E29BFE5FA0039B297 /* Frameworks */,
+				E4FCFD5F29BFE5FA0039B297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4FCFD6629BFE5FA0039B297 /* PBXTargetDependency */,
+			);
+			name = HomyTests;
+			productName = HomyTests;
+			productReference = E4FCFD6129BFE5FA0039B297 /* HomyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +204,10 @@
 				TargetAttributes = {
 					E46E302E29AA7ED300BC2C23 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					E4FCFD6029BFE5FA0039B297 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E46E302E29AA7ED300BC2C23;
 					};
 				};
 			};
@@ -173,6 +225,7 @@
 			projectRoot = "";
 			targets = (
 				E46E302E29AA7ED300BC2C23 /* Homy */,
+				E4FCFD6029BFE5FA0039B297 /* HomyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +240,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4FCFD5F29BFE5FA0039B297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -198,7 +258,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4FCFD5D29BFE5FA0039B297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FCFD6429BFE5FA0039B297 /* HomyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4FCFD6629BFE5FA0039B297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E46E302E29AA7ED300BC2C23 /* Homy */;
+			targetProxy = E4FCFD6529BFE5FA0039B297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E46E303B29AA7ED400BC2C23 /* Debug */ = {
@@ -379,6 +455,50 @@
 			};
 			name = Release;
 		};
+		E4FCFD6729BFE5FA0039B297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TC8CL45HA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theo-brlle.homy-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Homy";
+			};
+			name = Debug;
+		};
+		E4FCFD6829BFE5FA0039B297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TC8CL45HA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theo-brlle.homy-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Homy";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -396,6 +516,15 @@
 			buildConfigurations = (
 				E46E303E29AA7ED400BC2C23 /* Debug */,
 				E46E303F29AA7ED400BC2C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FCFD6929BFE5FA0039B297 /* Build configuration list for PBXNativeTarget "HomyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FCFD6729BFE5FA0039B297 /* Debug */,
+				E4FCFD6829BFE5FA0039B297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
